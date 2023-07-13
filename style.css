@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lato:ital,wght@0,400;1,400;1,700&family=Pacifico&family=Sedgwick+Ave+Display&display=swap');
+
+body{
+  background-color: #145A32;
+}
+*{
+  margin: 0;
+  padding:0;
+}
+nav{
+  font-family:'Lato';
+}
+nav ul
+{
+  display:flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  color:White;
+  background-color: black;
+}
+nav ul li{
+  padding: 0 12px;
+}
+.brand img{
+  width:44px;
+  padding: 0 8px;
+}
+.brand{
+  align-items: center;
+  font-weight: bolder;
+  font-size:1.3rem;
+  display:flex;
+}
+.container{
+  min-height: 72vh;
+  display: flex;
+  background-color: #17202A;
+  color: #D7DBDD;
+  font-family: 'Acme';
+  width:70%;
+  margin:auto; /*15px*/
+  border-radius: 20px;
+  padding: 15px;
+  background-image: url('Microphone-background-sound-waves-energy-Music.webp');
+}
+.songListContainer{
+  margin-top: 75px;
+}
+.songitem{
+  height: 50px;
+  display: flex;
+  background-color: white;
+  color: black;
+  width:330px;
+  margin: 12px 0;
+  justify-content: space-between;
+  border-radius: 30px;
+}
+.songitem img{
+  width: 50px;
+  margin: 0 5px;
+  border-radius: 34px;
+}
+.timestamp{
+  margin: 0 23px;
+}
+.timestamp i{
+  cursor: pointer;
+}
+.bottom{
+  position: sticky;
+  background-color: black;
+  color: white;
+  height: 120px;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+/* .songInfo{
+  position: absolute;
+  left:0;
+} */
+.songInfo img{
+  opacity: 0;
+  transition:opacity .5s ease-in;
+}
+.icons{
+  margin-top: 15px;
+}
+.icons i{
+  cursor: pointer;
+}
+#myprogressbar{
+  width: 80vw;
+  cursor: pointer;
+}
